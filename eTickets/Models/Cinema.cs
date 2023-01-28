@@ -7,7 +7,6 @@ namespace eTickets.Models
         //Tabel Primary Key
         [Key]
         public int Id { get; set; }
-        [Required]
 
         //Cinema Picture
         public string Logo { get; set; }

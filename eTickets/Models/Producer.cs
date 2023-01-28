@@ -7,7 +7,6 @@ namespace eTickets.Models
         //Tabel Primary Key
         [Key]
         public int Id { get; set; }
-        [Required]
         //Profilepicutre
         public string ProfilePictureURL { get; set; }
 
