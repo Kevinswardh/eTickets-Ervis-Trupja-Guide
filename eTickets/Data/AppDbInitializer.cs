@@ -88,7 +88,7 @@ namespace eTickets.Data
                             ImageURL = "http://dotnethow.net/images/movies/movie-1.jpeg",
                             StartDate = DateTime.Now.AddDays(-10),
                             EndDate = DateTime.Now.AddDays(-2),
-                            CinemaID = 5,
+                            CinemaID = 1,
                             ProducerID = 1,
                             MovieCategory = Enums.MovieCategory.Action,
 
@@ -102,7 +102,7 @@ namespace eTickets.Data
                             ImageURL = "http://dotnethow.net/images/movies/movie-2.jpeg",
                             StartDate = DateTime.Now.AddDays(+10),
                             EndDate = DateTime.Now.AddDays(+20),
-                            CinemaID = 6,
+                            CinemaID = 2,
                             ProducerID = 1,
                             MovieCategory = Enums.MovieCategory.Drama,
                         }
@@ -118,17 +118,17 @@ namespace eTickets.Data
                         new Actor_Movie()
                         {
                             ActorID= 1,
-                            MovieID= 28,
+                            MovieID= 1,
                         },
                         new Actor_Movie()
                         {
                             ActorID= 2,
-                            MovieID= 28,
+                            MovieID= 1,
                         },
                         new Actor_Movie()
                         {
                             ActorID= 1,
-                            MovieID= 29,
+                            MovieID= 2,
                         }
                     });
                     context.SaveChanges();
